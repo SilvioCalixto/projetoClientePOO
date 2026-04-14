@@ -1,6 +1,8 @@
 <?php
   namespace Projeto\DAO;
 
+use Exception;
+
   class Conexao{
       function conectar(){
         try{

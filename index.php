@@ -12,12 +12,12 @@
       <div class="container">
         <h1>Bem Vindo!</h1>
         <h3>Escolha uma das opções abaixo: </h3>
-        <a href="telas/cadastrar.php" type="button" class="btn btn-outline-primary">Cadastrar</a>
-        <button type="button" class="btn btn-outline-primary">Consultar</button>
-        <button type="button" class="btn btn-outline-primary">Atualizar</button>
-        <button type="button" class="btn btn-outline-primary">Excluir</button>
+        <a href="telas/cadastrar.php" class="btn btn-outline-primary">Cadastrar</a>
+        <a href="telas/consultar.php" class="btn btn-outline-primary">Consultar</a>
+        <a href="telas/atualizar.php" class="btn btn-outline-primary">Atualizar</a>
+        <a href="telas/excluir.php" class="btn btn-outline-primary">Excluir</a>
       </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
 </body>
-<!-- </html> -->
+</html>

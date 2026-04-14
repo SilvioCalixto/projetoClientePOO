@@ -2,6 +2,7 @@
   namespace projeto\DAO;
   require_once('Conexao.php');
 
+use Exception;
 use Projeto\DAO\Conexao;
 
   class Inserir{
@@ -13,7 +14,7 @@ use Projeto\DAO\Conexao;
     {
       try{
         $conn = $conexao->conectar();// abrir o acesso ao BD
-        $sql = "insert into cliente(codigo, nome, telefone, dtNascimento, endereco) values('','$nome','$telefone','$dtNascimento','$endereco')";
+        $sql = "INSERT INTO cliente(codigo, nome, telefone, dtNascimento, endereco) values('','$nome','$telefone','$dtNascimento','$endereco')";
         $result = mysqli_query($conn, $sql);// executando o comando
 
         // fechar conexão com o Banco de Dados(BD)
